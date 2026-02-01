@@ -837,88 +837,86 @@
             
             <!-- Services Grid Layout -->
             <div class="row services-grid justify-content-center" style="margin-top: 50px;">
-                <!-- First Row: 3 Services -->
-                <!-- Service 1: Photography & Videography -->
+                <!-- Service 1: Social Media -->
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="service-one__item text-center">
                         <div class="service-one__item__image">
-                            <img src="{{ asset('/assets/images/new-images/image1.jpeg') }}" alt="kreatif">
+                            <img src="{{ asset('/assets/images/new-images/image3.jpg') }}" alt="{{ __('common.service_1_title') }}">
                         </div>
                         <div class="service-one__item__content">
                             <h3 class="service-one__item__title">
-                                <a href="{{ url('fotografi-videografi') }}">{{ __('common.photography_videography') }}</a>
+                                <a href="{{ url('services#service1') }}">{{ __('common.service_1_title') }}</a>
                             </h3>
                             <p class="service-one__item__text">
-                                {{ __('common.photography_description') }}
+                                {{ __('common.service_1_description') }}
                             </p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Service 2: Video Content Creation -->
+                <!-- Service 2: Marketing -->
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="service-one__item text-center">
                         <div class="service-one__item__image">
-                            <img src="{{ asset('/assets/images/new-images/DSC09581-2.jpg') }}" alt="kreatif">
+                            <img src="{{ asset('/assets/images/new-images/DSC09581-2.jpg') }}" alt="{{ __('common.service_2_title') }}">
                         </div>
                         <div class="service-one__item__content">
                             <h3 class="service-one__item__title">
-                                <a href="{{ url('rekaan-grafik') }}">{{ __('common.video_content_creation') }}</a>
+                                <a href="{{ url('services#service2') }}">{{ __('common.service_2_title') }}</a>
                             </h3>
                             <p class="service-one__item__text">
-                                {{ __('common.video_content_creation_description') }}
+                                {{ __('common.service_2_description') }}
                             </p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Service 3: Social Media Management -->
+                <!-- Service 3: Content Creation -->
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="service-one__item text-center">
                         <div class="service-one__item__image">
-                            <img src="{{ asset('/assets/images/new-images/image3.jpg') }}" alt="kreatif">
+                            <img src="{{ asset('/assets/images/new-images/image1.jpeg') }}" alt="{{ __('common.service_3_title') }}">
                         </div>
                         <div class="service-one__item__content">
                             <h3 class="service-one__item__title">
-                                <a href="{{ url('pengurusan-media-sosial') }}">{{ __('common.social_media_management') }}</a>
+                                <a href="{{ url('services#service3') }}">{{ __('common.service_3_title') }}</a>
                             </h3>
                             <p class="service-one__item__text">
-                                {{ __('common.social_media_description') }}
+                                {{ __('common.service_3_description') }}
                             </p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Second Row: 2 Services (Centered) -->
-                <!-- Service 4: Digital Marketing Strategy -->
+                <!-- Service 4: Campaign -->
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="service-one__item text-center">
                         <div class="service-one__item__image">
-                            <img src="{{ asset('/assets/images/new-images/IMG_9832-2.jpg') }}" alt="kreatif">
+                            <img src="{{ asset('/assets/images/new-images/IMG_9832-2.jpg') }}" alt="{{ __('common.service_4_title') }}">
                         </div>
                         <div class="service-one__item__content">
                             <h3 class="service-one__item__title">
-                                <a href="{{ url('strategi-pemasaran-digital') }}">{{ __('common.digital_marketing_strategy') }}</a>
+                                <a href="{{ url('services#service4') }}">{{ __('common.service_4_title') }}</a>
                             </h3>
                             <p class="service-one__item__text">
-                                {{ __('common.digital_marketing_description') }}
+                                {{ __('common.service_4_description') }}
                             </p>
                         </div>
                     </div>
                 </div>
 
-                <!-- Service 5: Web Design & Development -->
+                <!-- Service 5: Branding -->
                 <div class="col-lg-4 col-md-6 mb-4">
                     <div class="service-one__item text-center">
                         <div class="service-one__item__image">
-                            <img src="{{ asset('/assets/images/new-images/image-web.png') }}" alt="kreatif">
+                            <img src="{{ asset('/assets/images/new-images/image-web.png') }}" alt="{{ __('common.service_5_title') }}">
                         </div>
                         <div class="service-one__item__content">
                             <h3 class="service-one__item__title">
-                                <a href="{{ url('web-design-development') }}">{{ __('common.web_design_development') }}</a>
+                                <a href="{{ url('services#service5') }}">{{ __('common.service_5_title') }}</a>
                             </h3>
                             <p class="service-one__item__text">
-                                {{ __('common.web_design_description') }}
+                                {{ __('common.service_5_branding_short') }}
                             </p>
                         </div>
                     </div>
