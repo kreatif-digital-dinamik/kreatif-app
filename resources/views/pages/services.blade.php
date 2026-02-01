@@ -15,147 +15,93 @@
         object-fit: cover;
         object-position: center;
     }
+    .service-details__sidebar__nav li a {
+        padding: 10px 20px;
+    }
 </style>
 
-        <section class="service-one">
-            <div class="container">
-                <div class="sec-title-two text-center">
-                    <h6 class="sec-title-two__tagline">
-                        <span class="sec-title-two__tagline__left icofont-rounded-double-left"></span>
-                        {{ __('common.services_tagline') }}
-                        <span class="sec-title-two__tagline__right icofont-rounded-double-right"></span>
-                    </h6>
-                    <h3 class="sec-title-two__title">{{ __('common.services_main_title') }}</h3>
-                </div>
-                
-                {{-- 5 Services --}}
-                <div class="row gutter-y-30 justify-content-center"> 
-                    
-                    {{-- BARIS 1, ITEM 1: Strategi Pemasaran Digital Berfokus ROI --}}
-                    <div class="col-lg-4 col-md-6 wow fadeInUp d-flex align-items-stretch" data-wow-delay="100ms">
-                        <div class="service-one__item text-center">
-                            <div class="service-one__item__image">
-                                <img src="{{ asset("/assets/images/new-images/IMG_0091-comp.jpg") }}" alt="{{ __('common.service_1_alt') }}" class="service-one__item__image-fixed">
-                            </div>
-                            <div class="service-one__item__content">
-                                <div class="service-one__item__icon">
-                                    <span class="icon-cooperation"></span>
-                                </div>
-                                <h3 class="service-one__item__title">
-                                    <a href="{{ url(__('common.service_1_url')) }}">{{ __('common.service_1_title') }}</a>
-                                </h3>
-                                <p class="service-one__item__text">
-                                    {{ __('common.service_1_description') }}
-                                </p>
-                            </div>
-                            <div class="service-one__item__bottom">
-                                <div class="service-one__item__bottom__number">01</div>
-                                {{-- <a class="service-one__item__bottom__rm" href="{{ url(__('common.service_1_url')) }}">{{ __('common.read_more') }}<span class="fas fa-angle-double-right"></span></a> --}}
-                            </div>
-                        </div>
-                    </div>
-                    
-                    {{-- BARIS 1, ITEM 2: Pengurusan Jenama Digital Konsisten --}}
-                    <div class="col-lg-4 col-md-6 wow fadeInUp d-flex align-items-stretch" data-wow-delay="150ms">
-                        <div class="service-one__item text-center">
-                            <div class="service-one__item__image">
-                                <img src="{{ asset("/assets/images/gallery/untitled-4-2.jpg") }}" alt="{{ __('common.service_2_alt') }}" class="service-one__item__image-fixed">
-                            </div>
-                            <div class="service-one__item__content">
-                                <div class="service-one__item__icon">
-                                    <span class="icon-ads-campaign"></span>
-                                </div>
-                                <h3 class="service-one__item__title">
-                                    <a href="{{ url(__('common.service_2_url')) }}">{{ __('common.service_2_title') }}</a>
-                                </h3>
-                                <p class="service-one__item__text">
-                                    {{ __('common.service_2_description') }}
-                                </p>
-                            </div>
-                            <div class="service-one__item__bottom">
-                                <div class="service-one__item__bottom__number">02</div>
-                                {{-- <a class="service-one__item__bottom__rm" href="{{ url(__('common.service_2_url')) }}">{{ __('common.read_more') }}<span class="fas fa-angle-double-right"></span></a> --}}
-                            </div>
-                        </div>
-                    </div>
-               
-                    
-                    {{-- BARIS 2, ITEM 3: Penerbitan Media Korporat Profesional --}}
-                    <div class="col-lg-4 col-md-6 wow fadeInUp d-flex align-items-stretch" data-wow-delay="200ms">
-                        <div class="service-one__item text-center">
-                            <div class="service-one__item__image">
-                                <img src="{{ asset("/assets/images/gallery/untitled-1-2.jpg") }}" alt="{{ __('common.service_3_alt') }}" class="service-one__item__image-fixed">
-                            </div>
-                            <div class="service-one__item__content">
-                                <div class="service-one__item__icon">
-                                    <span class="icon-headhunter"></span>
-                                </div>
-                                <h3 class="service-one__item__title">
-                                    <a href="{{ url(__('common.service_3_url')) }}">{{ __('common.service_3_title') }}</a>
-                                </h3>
-                                <p class="service-one__item__text">
-                                    {{ __('common.service_3_description') }}
-                                </p>
-                            </div>
-                            <div class="service-one__item__bottom">
-                                <div class="service-one__item__bottom__number">03</div>
-                                {{-- <a class="service-one__item__bottom__rm" href="{{ url(__('common.service_3_url')) }}">{{ __('common.read_more') }}<span class="fas fa-angle-double-right"></span></a> --}}
-                            </div>
-                        </div>
-                    </div>
-                    
-                    {{-- BARIS 2, ITEM 4: Perundingan Strategi Jangka Panjang --}}
-                    <div class="col-lg-4 col-md-6 wow fadeInUp d-flex align-items-stretch" data-wow-delay="250ms">
-                        <div class="service-one__item text-center">
-                            <div class="service-one__item__image">
-                                <img src="{{ asset("/assets/images/new-images/image-ws2.jpeg") }}" alt="{{ __('common.service_4_alt') }}" class="service-one__item__image-fixed">
-                            </div>
-                            <div class="service-one__item__content">
-                                <div class="service-one__item__icon">
-                                    <span class="icon-agency"></span>
-                                </div>
-                                <h3 class="service-one__item__title">
-                                    <a href="{{ url(__('common.service_4_url')) }}">{{ __('common.service_4_title') }}</a>
-                                </h3>
-                                <p class="service-one__item__text">
-                                    {{ __('common.service_4_description') }}
-                                </p>
-                            </div>
-                            <div class="service-one__item__bottom">
-                                <div class="service-one__item__bottom__number">04</div>
-                                {{-- <a class="service-one__item__bottom__rm" href="{{ url(__('common.service_4_url')) }}">{{ __('common.read_more') }}<span class="fas fa-angle-double-right"></span></a> --}}
-                            </div>
-                        </div>
-                    </div>
-                    
-                    {{-- BARIS 3, ITEM 5: Web Design and Development --}}
-                    <div class="col-lg-4 col-md-6 wow fadeInUp d-flex align-items-stretch" data-wow-delay="300ms">
-                        <div class="service-one__item text-center">
-                            <div class="service-one__item__image">
-                                <img src="{{ asset("/assets/images/new-images/image-web-2.png") }}" alt="{{ __('common.service_5_alt') }}" class="service-one__item__image-fixed">
-                            </div>
-                            <div class="service-one__item__content">
-                                <div class="service-one__item__icon">
-                                    <span class="icon-solutions"></span>
-                                </div>
-                                <h3 class="service-one__item__title">
-                                    <a href="{{ url(__('common.service_5_url')) }}">{{ __('common.service_5_title') }}</a>
-                                </h3>
-                                <p class="service-one__item__text">
-                                    {{ __('common.service_5_description') }}
-                                </p>
-                            </div>
-                            <div class="service-one__item__bottom">
-                                <div class="service-one__item__bottom__number">05</div>
-                                {{-- <a class="service-one__item__bottom__rm" href="{{ url(__('common.service_5_url')) }}">{{ __('common.read_more') }}<span class="fas fa-angle-double-right"></span></a> --}}
-                            </div>
-                        </div>
-                    </div>
-                    
-                </div>
-            </div>
-        </section>
-        <x-footer/>
+<section class="service-one">
+    <div class="container">
+        <div class="sec-title-two text-center">
+            <h6 class="sec-title-two__tagline">
+                <span class="sec-title-two__tagline__left icofont-rounded-double-left"></span>
+                {{ __('common.services_tagline') }}
+                <span class="sec-title-two__tagline__right icofont-rounded-double-right"></span>
+            </h6>
+            <h3 class="sec-title-two__title">{{ __('common.services_main_title') }}</h3>
+        </div>
+        
+        {{-- Navigation for 5 services --}}
+        <div class="service-details__sidebar">
+            <ul class="list-unstyled service-details__sidebar__nav justify-content-center d-flex flex-wrap">
+                <li><a href="#service-1">Strategi Pemasaran Digital</a></li>
+                <li><a href="#service-2">Pengurusan Media Sosial</a></li>
+                <li><a href="#service-3">Penerbitan Media Korporat</a></li>
+                <li><a href="#service-4">Rekaan Grafik Korporat</a></li>
+                <li><a href="#service-5">Kajian Kes & Laporan</a></li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<div id="service-1" class="service-details">
+    <div class="container">
+        <div class="service-details__content">
+            <h2 class="service-details__title">Strategi Pemasaran Digital</h2>
+            <p class="service-details__text">
+                Content for Strategi Pemasaran Digital.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div id="service-2" class="service-details">
+    <div class="container">
+        <div class="service-details__content">
+            <h2 class="service-details__title">Pengurusan Media Sosial</h2>
+            <p class="service-details__text">
+                Content for Pengurusan Media Sosial.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div id="service-3" class="service-details">
+    <div class="container">
+        <div class="service-details__content">
+            <h2 class="service-details__title">Penerbitan Media Korporat</h2>
+            <p class="service-details__text">
+                Kreatif Digital Dinamik (KDD) menyediakan solusi menyeluruh untuk memastikan bisnes anda bukan sahaja 
+                kelihatan lebih menarik, tetapi juga mendapat hasil yang berterusan. Servis **Penerbitan Media Korporat** kami 
+                adalah tulang belakang kepada strategi visual jenama anda.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div id="service-4" class="service-details">
+    <div class="container">
+        <div class="service-details__content">
+            <h2 class="service-details__title">Rekaan Grafik Korporat</h2>
+            <p class="service-details__text">
+                Content for Rekaan Grafik Korporat.
+            </p>
+        </div>
+    </div>
+</div>
+
+<div id="service-5" class="service-details">
+    <div class="container">
+        <div class="service-details__content">
+            <h2 class="service-details__title">Kajian Kes & Laporan</h2>
+            <p class="service-details__text">
+                Content for Kajian Kes & Laporan.
+            </p>
+        </div>
+    </div>
+</div>
+
+<x-footer/>
 <x-mobileMenu/>
 <x-sidebar/>
 <x-searchPopup/>

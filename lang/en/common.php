@@ -177,9 +177,9 @@ return [
     'about_us' => 'About Us',
     'company_title' => 'Kreatif Digital Dinamik (KDD)',
     'company_subtitle' => 'Your Trusted Brand Strategy Partner.',
-    'company_description_1' => 'Since 2019, we have empowered over 200+ businesses across Malaysia, from growing startups to established corporations, to elevate their digital presence. We are more than a creative agency; we are strategic partners dedicated to solving the unique challenges our clients face.',
-    'company_description_2' => 'Our diverse portfolio features collaborations with industry leaders like PNB, SME Bank, and Al-Ikhsan, as well as numerous other dynamic companies. Their continued trust is a testament to our ability to deliver impactful visual content and marketing strategies that resonate in any industry.',
-    'company_description_3' => 'Headquartered in Alor Setar, our reach extends nationwide. We are proud to be a digital agency that combines local roots with a national presence, offering every client personalized attention and bespoke strategies for success.',
+    'company_description_1' => 'Established in 2025, Kreatif Digital Dinamik (KDD) is a professional digital and creative solutions company built on years of industry experience. Our team\'s consolidated expertise in media production, digital strategy, and system development allows us to deliver comprehensive solutions across various industries.',
+    'company_description_2' => 'We are more than a creative agency; we are strategic partners dedicated to solving our clients\' unique challenges. With a history of successfully executed projects, we provide structured, result-driven solutions for organizations seeking professional and sustainable growth.',
+    'company_description_3' => 'Our diverse portfolio includes collaborations with industry leaders like PNB and SME Bank. Headquartered in Alor Setar, we serve clients nationwide, combining local roots with a national presence. Discover more about our story and how we can help your brand succeed.',
     'successful_projects' => 'Successful Projects',
     
     // Why Choose Us Section
@@ -312,8 +312,8 @@ return [
     // About Section
     'about_who_we_are' => 'Who We Are',
     'about_company_name' => 'Kreatif Digital Dinamik (KDD)',
-    'about_company_description_1' => 'Kreatif Digital Dinamik (KDD) is a media and digital marketing company dedicated to empowering local and corporate brands.',
-    'about_company_description_2' => 'We believe that consistent strategy is the key to staying relevant in a dynamic market. Therefore, we offer long-term solutions that provide continuous impact, not just one-time projects.',
+    'about_company_description_1' => 'Kreatif Digital Dinamik (KDD) was established in 2025 as a professional digital and creative solutions company, built upon years of prior industry experience in media production, digital strategy, and system development. The formation of KDD represents the consolidation of expertise from its founders and core leadership team, who have long been involved in delivering creative and digital solution across various industries.',
+    'about_company_description_2' => 'Before operating under a single corporate entity, the team behind KDD had independently managed and executed numerous projects, gaining practical insight into branding, content development, and digital systems that support real business operations. Supported by formal academic qualifications and hands-on industry exposure, KDD is positioned to provide structured, strategic, and result-driven solutions for organisations seeking professional and sustainable growth.',
     
     // About Services List
     'about_service_photography' => 'Professional Photography & Videography',
@@ -331,8 +331,8 @@ return [
     'about_consistent_text' => 'Our focus is to provide continuous added value for your brand success.',
     
     // About Quote
-    'about_company_quote' => 'Based in Alor Setar, Kedah, we are ready to be a strategic partner for clients throughout Malaysia in building stronger and more trusted brands.',
-    'about_company_tagline' => 'Kreatif Digital Dinamik – Your Business Strategy Partner.',
+    'about_company_quote' => 'Hence, we are more than a creative agency; we are strategic partners dedicated to solving the unique challenges our clients face. Our diverse portfolio features collaborations with industry leaders like PNB, SME Bank, and Al-Ikhsan, as well as numerous other dynamic companies. It is our ability to deliver impactful visual content and marketing strategies that resonate in any industry.',
+    'about_company_tagline' => 'Headquartered in Alor Setar, our reach extends nationwide. We are proud to be a digital agency that combines local roots with a national presence, offering every client personalized attention and bespoke strategies for success.',
     
     // Statistics
     'stats_successful_projects' => 'Successful Corporate Projects',

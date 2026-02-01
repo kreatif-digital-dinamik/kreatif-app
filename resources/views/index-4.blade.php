@@ -814,6 +814,7 @@
                         <p>
                             {{ __('common.company_description_3') }}
                         </p>
+                        <a href="{{ route('about') }}" class="btn btn-primary" style="margin-top: 20px;">{{ __('common.discover_more') }}</a>
                         
                     </div><!-- /.about__content -->
                 </div><!-- /.col-xl-6 -->

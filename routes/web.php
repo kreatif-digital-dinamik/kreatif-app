@@ -33,15 +33,6 @@ Route::get('faq', [PagesController::class, 'faq'])->name('faq');
 Route::get('login', [PagesController::class, 'login'])->name('login');
 
 Route::get('services', [PagesController::class, 'services'])->name('services');
-Route::get('services-carousel', [PagesController::class, 'services_carousel'])->name('services-carousel');
-Route::get('services-two', [PagesController::class, 'services_two'])->name('services-two');
-Route::get('services-two-carousel', [PagesController::class, 'services_two_carousel'])->name('services-two-carousel');
-Route::get('business-growth', [PagesController::class, 'business_growth'])->name('business-growth');
-Route::get('business-solution', [PagesController::class, 'business_solution'])->name('business-solution');
-Route::get('marketing-solution', [PagesController::class, 'marketing_solution'])->name('marketing-solution');
-Route::get('technology-services', [PagesController::class, 'technology_services'])->name('technology-services');
-Route::get('business-marketing', [PagesController::class, 'business_marketing'])->name('business-marketing');
-Route::get('business-support', [PagesController::class, 'business_support'])->name('business-support');
 Route::get('products', [PagesController::class, 'products'])->name('products');
 Route::get('products-left', [PagesController::class, 'products_left'])->name('products-left');
 Route::get('products-right', [PagesController::class, 'products_right'])->name('products-right');

@@ -176,9 +176,9 @@ return [
     'about_us' => 'Tentang Kami',
     'company_title' => 'Kreatif Digital Dinamik (KDD)',
     'company_subtitle' => 'Rakan Strategik Pengurusan Jenama Anda.',
-    'company_description_1' => 'Sejak 2019, kami telah memperkasakan lebih 200+ perniagaan di seluruh Malaysia—daripada syarikat pemula yang sedang berkembang hingga ke korporasi yang mantap—untuk meningkatkan kehadiran digital mereka. Kami lebih daripada sekadar agensi kreatif; kami adalah rakan kongsi strategik yang berdedikasi untuk menyelesaikan cabaran unik yang dihadapi oleh pelanggan kami.',
-    'company_description_2' => 'Portfolio kami yang pelbagai merangkumi kerjasama dengan peneraju industri seperti PNB, SME Bank, dan Al-Ikhsan, serta banyak lagi syarikat dinamik yang lain. Kepercayaan berterusan mereka menjadi bukti keupayaan kami untuk menyampaikan kandungan visual dan strategi pemasaran yang berimpak dan selari dengan mana-mana industri.',
-    'company_description_3' => 'Beribu pejabat di Alor Setar, jangkauan kami meluas ke seluruh negara. Kami berbangga menjadi sebuah agensi digital yang menggabungkan akar umbi tempatan dengan kehadiran nasional, menawarkan setiap pelanggan perhatian peribadi dan strategi yang direka khas untuk kejayaan.',
+    'company_description_1' => 'Ditubuhkan pada tahun 2025, Kreatif Digital Dinamik (KDD) ialah sebuah syarikat penyelesaian digital dan kreatif profesional yang dibina atas pengalaman industri selama bertahun-tahun. Kepakaran gabungan pasukan kami dalam penerbitan media, strategi digital dan pembangunan sistem membolehkan kami menyampaikan penyelesaian yang komprehensif merentasi pelbagai industri.',
+    'company_description_2' => 'Kami lebih daripada sekadar agensi kreatif; kami adalah rakan kongsi strategik yang berdedikasi untuk menyelesaikan cabaran unik pelanggan kami. Dengan sejarah projek yang berjaya dilaksanakan, kami menyediakan penyelesaian berstruktur dan dipacu hasil untuk organisasi yang mencari pertumbuhan profesional dan mampan.',
+    'company_description_3' => 'Portfolio kami yang pelbagai termasuk kerjasama dengan peneraju industri seperti PNB dan SME Bank. Beribu pejabat di Alor Setar, kami memberi perkhidmatan kepada pelanggan di seluruh negara, menggabungkan akar umbi tempatan dengan kehadiran nasional. Ketahui lebih lanjut tentang kisah kami dan cara kami boleh membantu jenama anda berjaya.',
     'successful_projects' => 'Projek Berjaya',
     
     // Why Choose Us Section
@@ -310,8 +310,8 @@ return [
     // About Section
     'about_who_we_are' => 'Siapa Kami',
     'about_company_name' => 'Kreatif Digital Dinamik (KDD)',
-    'about_company_description_1' => 'Kreatif Digital Dinamik (KDD) ialah sebuah syarikat media dan pemasaran digital yang berdedikasi untuk memperkasakan jenama tempatan dan korporat.',
-    'about_company_description_2' => 'Kami percaya bahawa strategi yang konsisten adalah kunci untuk kekal relevan dalam pasaran yang dinamik. Oleh itu, kami menawarkan penyelesaian jangka panjang yang memberi impak berterusan, bukan sekadar projek sekali sahaja.',
+    'about_company_description_1' => 'Kreatif Digital Dinamik (KDD) ditubuhkan pada tahun 2025 sebagai sebuah syarikat penyelesaian digital dan kreatif profesional, yang dibina atas pengalaman industri selama bertahun-tahun dalam penerbitan media, strategi digital, dan pembangunan sistem. Penubuhan KDD melambangkan penyatuan kepakaran daripada pengasas dan pasukan kepimpinan terasnya, yang telah lama terlibat dalam menyampaikan penyelesaian kreatif dan digital merentasi pelbagai industri.',
+    'about_company_description_2' => 'Sebelum beroperasi di bawah satu entiti korporat, pasukan di belakang KDD telah mengurus dan melaksanakan pelbagai projek secara bebas, memperoleh wawasan praktikal dalam penjenamaan, pembangunan kandungan, dan sistem digital yang menyokong operasi perniagaan sebenar. Disokong oleh kelayakan akademik formal dan pendedahan industri secara langsung, KDD berada pada kedudukan untuk menyediakan penyelesaian berstruktur, strategik, dan dipacu hasil untuk organisasi yang mencari pertumbuhan profesional dan mampan.',
     
     // About Services List
     'about_service_photography' => 'Fotografi & Videografi Profesional',
@@ -329,8 +329,8 @@ return [
     'about_consistent_text' => 'Fokus kami adalah untuk memberikan nilai tambah secara berterusan demi kejayaan jenama anda.',
     
     // About Quote
-    'about_company_quote' => 'Berpusat di Alor Setar, Kedah, kami bersedia menjadi rakan strategik kepada klien di seluruh Malaysia dalam membina jenama yang lebih kukuh dan dipercayai.',
-    'about_company_tagline' => 'Kreatif Digital Dinamik – Rakan Strategi Bisnes Anda.',
+    'about_company_quote' => 'Oleh itu, kami lebih daripada sekadar agensi kreatif; kami adalah rakan kongsi strategik yang berdedikasi untuk menyelesaikan cabaran unik yang dihadapi oleh pelanggan kami. Portfolio kami yang pelbagai menampilkan kerjasama dengan pemimpin industri seperti PNB, SME Bank, dan Al-Ikhsan, serta banyak syarikat dinamik lain. Keupayaan kami untuk menyampaikan kandungan visual yang berkesan dan strategi pemasaran yang bergema dalam mana-mana industri.',
+    'about_company_tagline' => 'Beribu pejabat di Alor Setar, jangkauan kami meluas ke seluruh negara. Kami berbangga menjadi sebuah agensi digital yang menggabungkan akar tempatan dengan kehadiran nasional, menawarkan setiap pelanggan perhatian peribadi dan strategi yang ditempah khas untuk kejayaan.',
     
     // Statistics
     'stats_successful_projects' => 'Projek Korporat Berjaya',

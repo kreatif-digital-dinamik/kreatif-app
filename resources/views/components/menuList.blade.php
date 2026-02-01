@@ -320,12 +320,16 @@
         </ul>
     </li>
 
-    <li class="dropdown {{ Request::is('services*') ? 'current' : '' }}">
+    <li class="{{ Request::is('services') ? 'current' : '' }}">
+    <a href="{{ url('/services') }}">{{ __('common.Our Services Title') }}</a>
+    </li>
+
+    {{-- <li class="dropdown {{ Request::is('services*') ? 'current' : '' }}">
         <a href="#">{{ __('common.services') }}</a>
         <ul>
             <li class="{{ Request::is('services') ? 'current' : '' }}"><a
                     href="{{ url('/services') }}">{{ __('common.Our Services Title') }}</a></li>
-           {{-- <li class="{{ Request::is('services-carousel') ? 'current' : '' }}"><a
+           <li class="{{ Request::is('services-carousel') ? 'current' : '' }}"><a
                     href="{{ url('services-carousel') }}">{{ __('common.menu_services_one_carousel') }}</a></li> 
             <li class="{{ Request::is('services-two') ? 'current' : '' }}"><a
                     href="{{ url('services-two') }}">{{ __('common.menu_services_two') }}</a></li>
@@ -342,9 +346,9 @@
             <li class="{{ Request::is('business-marketing') ? 'current' : '' }}"><a
                     href="{{ url('business-marketing') }}">{{ __('common.menu_business_marketing') }}</a></li>
             <li class="{{ Request::is('business-support') ? 'current' : '' }}"><a
-                    href="{{ url('business-support') }}">{{ __('common.menu_business_support') }}</a></li> --}}
+                    href="{{ url('business-support') }}">{{ __('common.menu_business_support') }}</a></li>
         </ul>
-    </li>
+    </li> --}}
 
     {{-- <li class="dropdown {{ Request::is('shop*') || Request::is('products*') || Request::is('cart') || Request::is('checkout') ? 'current' : '' }}">
         <a href="#">{{ __('common.shop') }}</a>

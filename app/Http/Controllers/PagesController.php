@@ -78,42 +78,6 @@ class PagesController extends Controller
     {
         return view('pages/services');
     }
-    public function services_carousel()
-    {
-        return view('pages/services-carousel');
-    }
-    public function services_two()
-    {
-        return view('pages/services-two');
-    }
-    public function services_two_carousel()
-    {
-        return view('pages/services-two-carousel');
-    }
-    public function business_growth()
-    {
-        return view('pages/business-growth');
-    }
-    public function business_solution()
-    {
-        return view('pages/business-solution');
-    }
-    public function marketing_solution()
-    {
-        return view('pages/marketing-solution');
-    }
-    public function technology_services()
-    {
-        return view('pages/technology-services');
-    }
-    public function business_marketing()
-    {
-        return view('pages/business-marketing');
-    }
-    public function business_support()
-    {
-        return view('pages/business-support');
-    }
     public function products()
     {
         return view('pages/products');
