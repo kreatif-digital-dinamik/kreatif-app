@@ -106,6 +106,45 @@
         </div>
     </section>
 
+    <!--Start Vision & Mission Section-->
+    <section class="about-vision-mission" style="padding: 60px 0 80px;">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-6 wow fadeInLeft text-center" data-wow-delay="100ms">
+                    <div class="about-three__content">
+                        <div class="sec-title-two text-left">
+                            <h6 class="sec-title-two__tagline">
+                                <span class="sec-title-two__tagline__left icofont-rounded-double-left"></span>
+                                {{ __('common.our_vision_title') }}
+                                <span class="sec-title-two__tagline__right icofont-rounded-double-right"></span>
+                            </h6>
+                            <h5 class="">{{ __('common.vision_heading') }}</h5>
+                        </div>
+                        <p class="about-three__content__text">
+                            {{ __('common.vision_text') }}
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-6 wow fadeInRight text-center" data-wow-delay="200ms">
+                    <div class="about-three__content">
+                        <div class="sec-title-two text-left">
+                            <h6 class="sec-title-two__tagline">
+                                <span class="sec-title-two__tagline__left icofont-rounded-double-left"></span>
+                                {{ __('common.our_mission_title') }}
+                                <span class="sec-title-two__tagline__right icofont-rounded-double-right"></span>
+                            </h6>
+                            <h5 class="">{{ __('common.mission_heading') }}</h5>
+                        </div>
+                        <p class="about-three__content__text">
+                            {{ __('common.mission_text') }}
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--End Vision & Mission Section-->
+
     <section class="funfact-two">
         <div class="container">
             <ul class="list-unstyled funfact-two__list">

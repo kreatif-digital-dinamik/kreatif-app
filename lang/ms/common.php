@@ -1,6 +1,17 @@
 <?php
 
 return [
+            'service_1_subtitle' => 'Mengurus & Membangunkan Media Sosial Secara Konsisten',
+            'service_2_subtitle' => 'Strategi Pemasaran untuk Pertumbuhan Bisnes',
+            'service_3_subtitle' => 'Kandungan Kreatif yang Menghidupkan Jenama',
+            'service_4_subtitle' => 'Kempen Pemasaran yang Terancang & Fokus',
+            'service_5_subtitle' => 'Membina Jenama yang Konsisten & Berkesan',
+        // Full Service Section Content (HTML)
+        'service_1_full' => '<p><strong>Penyelesaian Pengurusan Media Sosial Berorientasikan ROI</strong><br>Media sosial merupakan saluran utama untuk membina kredibiliti dan hubungan jangka panjang dengan pelanggan. Pengurusan yang tidak konsisten boleh menyebabkan jenama anda hilang daya saing. Kreatif Digital Dinamik menawarkan pengurusan media sosial yang profesional, dengan strategi kandungan yang relevan, kreatif, dan konsisten untuk memastikan jenama anda kekal menonjol serta memberikan pulangan pelaburan yang optimum.</p><p><strong>Skop Perkhidmatan:</strong></p><ul><li>Pengurusan Akaun Media Sosial – Facebook, Instagram, TikTok, LinkedIn dan lain-lain.</li><li>Perancangan Kandungan – Jadual posting yang konsisten mengikut objektif pemasaran.</li><li>Rekaan Visual & Caption – Konten grafik dan penulisan yang menarik minat audiens.</li><li>Engagement & Komuniti – Membina interaksi dengan followers dan meningkatkan kepercayaan pelanggan.</li><li>Analisis & Laporan Prestasi – Menilai hasil posting/iklan untuk strategi yang lebih baik.</li></ul>',
+        'service_2_full' => '<p><strong>Strategi Pemasaran Digital Menyeluruh & Konsisten</strong><br>Pemasaran digital yang berkesan memerlukan pemahaman mendalam tentang pelanggan serta penyampaian mesej yang tepat pada masa yang strategik. Kami menyediakan perkhidmatan pemasaran digital yang dirangka khusus untuk menyokong objektif perniagaan anda, bermula dari pembinaan kesedaran jenama hingga penukaran pelanggan, dengan penekanan pada hasil yang boleh diukur dan pertumbuhan mampan.</p><p><strong>Skop Perkhidmatan:</strong></p><ul><li>Strategi Pemasaran Digital – Merangka pelan pemasaran jangka pendek & panjang.</li><li>Analisis Pasaran & Sasaran – Kenal pasti audiens yang tepat untuk produk anda.</li><li>Pengurusan Iklan Berbayar (Ads Management) – Mengoptimumkan bajet iklan untuk hasil terbaik.</li><li>Retargeting & Automation – Kekalkan pelanggan dengan teknik remarketing dan automasi.</li><li>Consulting & Advisory – Memberi panduan pemasaran berdasarkan data & trend semasa.</li></ul>',
+        'service_3_full' => '<p><strong>Penerbitan Kandungan Korporat Profesional</strong><br>Kandungan yang berkualiti tinggi adalah asas kepada kejayaan pemasaran digital. Kreatif Digital Dinamik menghasilkan kandungan yang profesional, kreatif, dan disesuaikan dengan keperluan serta sasaran audiens anda, bagi memastikan mesej jenama disampaikan secara efektif dan meningkatkan kepercayaan pelanggan.</p><p><strong>Skop Perkhidmatan:</strong></p><ul><li>Fotografi Produk & Korporat – Gambar berkualiti tinggi untuk katalog, iklan, dan media sosial.</li><li>Videografi Promosi & Event – Video pendek, iklan komersial, testimoni, dan dokumentasi.</li><li>Penulisan Kandungan (Copywriting) – Artikel, caption, dan skrip yang menarik.</li><li>Rekaan Grafik & Animasi Ringkas – Visual kreatif untuk media sosial & pemasaran digital.</li><li>Siri Kandungan (TikTok/YouTube) – Konten bersiri yang konsisten untuk tarik lebih ramai penonton.</li></ul>',
+        'service_4_full' => '<p><strong>Konsultasi Strategi & Pelaksanaan Kempen Jangka Panjang</strong><br>Setiap kempen pemasaran memerlukan perancangan strategik dan objektif yang jelas, sama ada untuk meningkatkan jualan, memperkenalkan produk baharu, atau membina kesedaran jenama. Kami menawarkan konsultasi dan pelaksanaan kempen yang terancang, kreatif, serta berorientasikan hasil, bagi memastikan setiap inisiatif memberikan impak yang signifikan dan boleh diukur.</p><p><strong>Skop Perkhidmatan:</strong></p><ul><li>Perancangan Kempen Digital & Offline – Strategi menyeluruh untuk capai sasaran audiens.</li><li>Idea & Konsep Kreatif – Visual, mesej, dan tema kempen yang kuat.</li><li>Pengurusan Iklan Berbayar – Facebook Ads, Google Ads, TikTok Ads.</li><li>Aktivasi Jenama (Brand Activation) – Event, promosi atau kolaborasi untuk menarik pelanggan.</li><li>Pemantauan & Analisis ROI – Laporan keberkesanan kempen untuk memastikan hasil yang optimum.</li></ul>',
+        'service_5_full' => '<p><strong>Pembangunan Jenama & Laman Web Profesional</strong><br>Jenama yang kukuh adalah aset terpenting dalam membina kepercayaan dan keunggulan perniagaan. Ia merangkumi identiti visual, nilai, dan pengalaman pelanggan yang konsisten di semua platform. Kreatif Digital Dinamik menyediakan strategi penjenamaan menyeluruh serta reka bentuk dan pembangunan laman web profesional yang selari dengan identiti jenama, untuk memastikan perniagaan anda sentiasa relevan, dipercayai, dan kompetitif.</p><p><strong>Skop Perkhidmatan:</strong></p><ul><li>Cerita Jenama – Membina naratif yang menggambarkan siapa anda dan apa yang anda perjuangkan.</li><li>Strategi Jenama – Menetapkan arah tuju dan perancangan jangka panjang untuk jenama anda.</li><li>Reka Bentuk Identiti Visual – Logo, warna, tipografi, dan elemen visual yang konsisten.</li><li>Panduan Jenama (Brand Guidelines) – Standard yang memastikan jenama anda kekal konsisten di semua platform.</li><li>Aset Digital & Bahan Promosi – Reka bentuk untuk pemasaran, iklan, dan media sosial.</li><li>Reka Bentuk Kreatif & Packaging – Visual yang menarik untuk produk dan bahan pemasaran.</li></ul><p><strong>Web Design & Development:</strong><br>Kami juga menawarkan perkhidmatan reka bentuk dan pembangunan laman web profesional yang responsif, moden, dan dioptimumkan untuk pengalaman pengguna terbaik. Laman web yang dibina akan selari dengan identiti jenama anda dan menyokong matlamat pemasaran digital anda.</p>',
     /*
     |--------------------------------------------------------------------------
     | Common Translation Lines
@@ -250,34 +261,93 @@ return [
     'services_main_title' => 'Fokus Strategik Kami untuk Kejayaan Jenama Anda',
     
     // Service 1 - Digital Marketing Strategy
-    'service_1_title' => 'Strategi Pemasaran Digital Berfokus ROI',
+    'service_1_title' => 'Social Media',
     'service_1_description' => 'Merangka strategi iklan berbayar (Meta Ads, Google Ads) dan kempen disasarkan untuk memastikan pulangan pelaburan (ROI) yang optimum dan terukur.',
     'service_1_alt' => 'Strategi Pemasaran',
     'service_1_url' => 'strategi-pemasaran-digital',
     
     // Service 2 - Brand Management
-    'service_2_title' => 'Pengurusan Jenama Digital Konsisten',
+    'service_2_title' => 'Marketing',
     'service_2_description' => 'Pengurusan menyeluruh semua platform sosial dengan kandungan tersusun untuk membina kewibawaan dan menjamin konsistensi jenama korporat.',
     'service_2_alt' => 'Pengurusan Jenama Digital',
     'service_2_url' => 'pengurusan-jenama-digital',
     
     // Service 3 - Media Publishing
-    'service_3_title' => 'Penerbitan Media Korporat Profesional',
+    'service_3_title' => 'Content Creation',
     'service_3_description' => 'Menghasilkan aset visual (Fotografi & Videografi) serta Rekaan Grafik berpiawaian tinggi yang mematuhi panduan jenama (Brand Guidelines) anda.',
     'service_3_alt' => 'Penerbitan Media Korporat',
     'service_3_url' => 'penerbitan-media-korporat',
     
     // Service 4 - Strategy Consultation
-    'service_4_title' => 'Perundingan Strategi Jangka Panjang',
+    'service_4_title' => 'Campaign',
     'service_4_description' => 'Konsultasi bersama pakar KDD untuk menganalisis prestasi semasa, memeta pelan tindakan, dan memastikan pertumbuhan jenama yang berterusan.',
     'service_4_alt' => 'Perundingan Strategi',
     'service_4_url' => 'perundingan-strategi',
     
     // Service 5 - Web Design and Development
-    'service_5_title' => 'Reka Bentuk dan Pembangunan Web',
+    'service_5_title' => 'Branding',
     'service_5_description' => 'Mencipta laman web moden, responsif, dan mesra pengguna yang meningkatkan kehadiran digital anda serta memacu pertumbuhan perniagaan.',
     'service_5_alt' => 'Reka Bentuk dan Pembangunan Web',
     'service_5_url' => 'reka-bentuk-pembangunan-web',
+    
+    // Services Page - Detailed Service Content
+    // Service 1 Details
+    'service_1_heading' => 'Social Media - Strategi Pemasaran Digital Berfokus ROI',
+    'service_1_image_alt' => 'Social Media - Strategi Pemasaran Digital Berfokus ROI',
+    'service_1_intro' => 'Mengurus & Membangunkan Media Sosial Secara Konsisten<br>Media sosial adalah medium utama untuk berhubung dengan pelanggan hari ini. Namun, pengurusan yang tidak konsisten boleh buat jenama anda tenggelam di antara pesaing. Kami membantu anda mengurus media sosial dengan kandungan yang relevan, kreatif, konsisten agar relevan dan berkesan.',
+    'service_1_scope_heading' => 'Perkhidmatan Social Media kami meliputi:',
+    'service_1_scope_1' => 'Pengurusan Akaun Media Sosial – Facebook, Instagram, TikTok, LinkedIn dan lain-lain.',
+    'service_1_scope_2' => 'Perancangan Kandungan – Jadual posting yang konsisten mengikut objektif pemasaran.',
+    'service_1_scope_3' => 'Rekaan Visual & Caption – Konten grafik dan penulisan yang menarik minat audiens.',
+    'service_1_scope_4' => 'Engagement & Komuniti – Membina interaksi dengan followers dan meningkatkan kepercayaan pelanggan.',
+    'service_1_scope_5' => 'Analisis & Laporan Prestasi – Menilai hasil posting/iklan untuk strategi yang lebih baik.',
+    
+    // Service 2 Details
+    'service_2_heading' => 'Marketing - Pengurusan Jenama Digital Konsisten',
+    'service_2_image_alt' => 'Marketing - Pengurusan Jenama Digital Konsisten',
+    'service_2_intro' => 'Strategi Pemasaran untuk Pertumbuhan Bisnes<br>Pemasaran bukan sekadar buat iklan – ia tentang memahami pelanggan dan menyampaikan mesej yang tepat pada masa yang sesuai. Kami membantu anda merangka strategi pemasaran yang selaras dengan matlamat bisnes, dari awareness hingga conversion.',
+    'service_2_scope_heading' => 'Perkhidmatan Marketing kami meliputi:',
+    'service_2_scope_1' => 'Strategi Pemasaran Digital – Merangka pelan pemasaran jangka pendek & panjang.',
+    'service_2_scope_2' => 'Analisis Pasaran & Sasaran – Kenal pasti audiens yang tepat untuk produk anda.',
+    'service_2_scope_3' => 'Pengurusan Iklan Berbayar (Ads Management) – Mengoptimumkan bajet iklan untuk hasil terbaik.',
+    'service_2_scope_4' => 'Retargeting & Automation – Kekalkan pelanggan dengan teknik remarketing dan automasi.',
+    'service_2_scope_5' => 'Consulting & Advisory – Memberi panduan pemasaran berdasarkan data & trend semasa.',
+    
+    // Service 3 Details
+    'service_3_heading' => 'Content Creation - Penerbitan Media Korporat Profesional',
+    'service_3_image_alt' => 'Content Creation - Penerbitan Media Korporat Profesional',
+    'service_3_intro' => 'Kandungan Kreatif yang Menghidupkan Jenama<br>Kandungan adalah nadi kepada pemasaran digital. Tanpa konten yang menarik, mesej anda tidak sampai kepada pelanggan. Kami menghasilkan kandungan kreatif yang disesuaikan dengan audiens sasaran supaya jenama anda lebih mudah diingati.',
+    'service_3_scope_heading' => 'Perkhidmatan Content Creation kami meliputi:',
+    'service_3_scope_1' => 'Fotografi Produk & Korporat – Gambar berkualiti tinggi untuk katalog, iklan, dan media sosial.',
+    'service_3_scope_2' => 'Videografi Promosi & Event – Video pendek, iklan komersial, testimoni, dan dokumentasi.',
+    'service_3_scope_3' => 'Penulisan Kandungan (Copywriting) – Artikel, caption, dan skrip yang menarik.',
+    'service_3_scope_4' => 'Rekaan Grafik & Animasi Ringkas – Visual kreatif untuk media sosial & pemasaran digital.',
+    'service_3_scope_5' => 'Siri Kandungan (TikTok/YouTube) – Konten bersiri yang konsisten untuk tarik lebih ramai penonton.',
+    
+    // Service 4 Details
+    'service_4_heading' => 'Campaign - Perundingan Strategi Jangka Panjang',
+    'service_4_image_alt' => 'Campaign - Perundingan Strategi Jangka Panjang',
+    'service_4_intro' => 'Kempen Pemasaran yang Terancang & Fokus<br>Setiap kempen pemasaran perlu ada matlamat yang jelas – sama ada untuk meningkatkan jualan, memperkenalkan produk baru, atau membina kesedaran jenama. Kami menyediakan perancangan kempen yang tersusun supaya setiap langkah memberi hasil yang boleh diukur.',
+    'service_4_scope_heading' => 'Perkhidmatan Campaign kami meliputi:',
+    'service_4_scope_1' => 'Perancangan Kempen Digital & Offline – Strategi menyeluruh untuk capai sasaran audiens.',
+    'service_4_scope_2' => 'Idea & Konsep Kreatif – Visual, mesej, dan tema kempen yang kuat.',
+    'service_4_scope_3' => 'Pengurusan Iklan Berbayar – Facebook Ads, Google Ads, TikTok Ads.',
+    'service_4_scope_4' => 'Aktivasi Jenama (Brand Activation) – Event, promosi atau kolaborasi untuk menarik pelanggan.',
+    'service_4_scope_5' => 'Pemantauan & Analisis ROI – Laporan keberkesanan kempen untuk memastikan hasil yang optimum.',
+    
+    // Service 5 Details
+    'service_5_heading' => 'Branding - Reka Bentuk dan Pembangunan Web',
+    'service_5_image_alt' => 'Branding - Reka Bentuk dan Pembangunan Web',
+    'service_5_intro' => 'Membina Jenama yang Konsisten & Berkesan<br>Jenama anda adalah identiti yang membezakan anda daripada pesaing. Ia bukan sekadar logo atau warna, tetapi keseluruhan cerita, nilai, dan pengalaman yang pelanggan rasai setiap kali mereka berinteraksi dengan perniagaan anda.<br>Di Kreatif Digital Dinamik (KDD), kami membantu anda merangka strategi jenama yang jelas, konsisten, dan mudah dikenali. Kami percaya bahawa jenama yang kukuh mampu membina keyakinan pelanggan dan memberi kelebihan kompetitif dalam jangka panjang.',
+    'service_5_scope_heading' => 'Perkhidmatan Branding kami meliputi:',
+    'service_5_scope_1' => 'Cerita Jenama – Membina naratif yang menggambarkan siapa anda dan apa yang anda perjuangkan.',
+    'service_5_scope_2' => 'Strategi Jenama – Menetapkan arah tuju dan perancangan jangka panjang untuk jenama anda.',
+    'service_5_scope_3' => 'Reka Bentuk Identiti Visual – Logo, warna, tipografi, dan elemen visual yang konsisten.',
+    'service_5_scope_4' => 'Panduan Jenama (Brand Guidelines) – Standard yang memastikan jenama anda kekal konsisten di semua platform.',
+    'service_5_scope_5' => 'Aset Digital & Bahan Promosi – Reka bentuk untuk pemasaran, iklan, dan media sosial.',
+    'service_5_scope_6' => 'Reka Bentuk Kreatif & Packaging – Visual yang menarik untuk produk dan bahan pemasaran.',
+    'service_5_scope_7' => 'Web Design & Development – Membangunkan laman web profesional, responsif, dan mesra pengguna untuk memperkukuh kehadiran digital anda.',
+    'service_5_scope_8' => 'Penyelenggaraan & Kemaskini Web – Pastikan laman web anda sentiasa selamat, terkini, dan berfungsi dengan baik.',
     
     // Common Service Elements
     'read_more' => 'Baca Lanjut',
@@ -331,6 +401,15 @@ return [
     // About Quote
     'about_company_quote' => 'Oleh itu, kami lebih daripada sekadar agensi kreatif; kami adalah rakan kongsi strategik yang berdedikasi untuk menyelesaikan cabaran unik yang dihadapi oleh pelanggan kami. Portfolio kami yang pelbagai menampilkan kerjasama dengan pemimpin industri seperti PNB, SME Bank, dan Al-Ikhsan, serta banyak syarikat dinamik lain. Keupayaan kami untuk menyampaikan kandungan visual yang berkesan dan strategi pemasaran yang bergema dalam mana-mana industri.',
     'about_company_tagline' => 'Beribu pejabat di Alor Setar, jangkauan kami meluas ke seluruh negara. Kami berbangga menjadi sebuah agensi digital yang menggabungkan akar tempatan dengan kehadiran nasional, menawarkan setiap pelanggan perhatian peribadi dan strategi yang ditempah khas untuk kejayaan.',
+    
+    // Vision & Mission
+    'our_vision_title' => 'Visi Kami',
+    'vision_heading' => 'Membina Kepercayaan Melalui Kecemerlangan',
+    'vision_text' => 'Untuk menjadi rakan kreatif digital yang dipercayai untuk perniagaan yang menghargai komunikasi yang jelas, imej jenama yang kukuh, dan pertumbuhan jangka panjang.',
+    
+    'our_mission_title' => 'Misi Kami',
+    'mission_heading' => 'Menyampaikan Penyelesaian Yang Boleh Dipercayai',
+    'mission_text' => 'Misi kami adalah untuk menyampaikan kandungan digital dan perkhidmatan kreatif yang boleh dipercayai yang membantu perniagaan untuk mempersembahkan diri mereka secara profesional dan kompetitif.',
     
     // Statistics
     'stats_successful_projects' => 'Projek Korporat Berjaya',

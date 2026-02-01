@@ -1,6 +1,17 @@
 <?php
 
 return [
+            'service_1_subtitle' => 'Consistent Social Media Management & Development',
+            'service_2_subtitle' => 'Marketing Strategy for Business Growth',
+            'service_3_subtitle' => 'Creative Content that Brings Brands to Life',
+            'service_4_subtitle' => 'Well-Planned & Focused Marketing Campaigns',
+            'service_5_subtitle' => 'Building a Consistent & Effective Brand',
+        // Full Service Section Content (HTML)
+        'service_1_full' => '<p><strong>ROI-Focused Social Media Management Solutions</strong><br>Social media is a key channel for building credibility and long-term customer relationships. Inconsistent management can cause your brand to lose its competitive edge. Kreatif Digital Dinamik delivers professional social media management with relevant, creative, and consistent content strategies to ensure your brand stands out and delivers optimal ROI.</p><p><strong>Scope of Services:</strong></p><ul><li>Social Media Account Management – Facebook, Instagram, TikTok, LinkedIn, and more.</li><li>Content Planning – Consistent posting schedules aligned with marketing objectives.</li><li>Visual & Caption Design – Engaging graphics and copywriting to attract your audience.</li><li>Engagement & Community – Building interaction with followers and increasing customer trust.</li><li>Performance Analysis & Reporting – Evaluating post/ad results for better strategies.</li></ul>',
+        'service_2_full' => '<p><strong>Comprehensive & Consistent Digital Marketing Strategy</strong><br>Effective digital marketing requires deep customer understanding and timely, targeted messaging. We deliver tailored digital marketing services to support your business objectives, from brand awareness to customer conversion, with a focus on measurable results and sustainable growth.</p><p><strong>Scope of Services:</strong></p><ul><li>Digital Marketing Strategy – Short- and long-term marketing plans.</li><li>Market & Target Analysis – Identifying the right audience for your product.</li><li>Paid Ads Management – Optimizing ad budgets for the best results.</li><li>Retargeting & Automation – Retain customers with remarketing and automation techniques.</li><li>Consulting & Advisory – Marketing guidance based on data and current trends.</li></ul>',
+        'service_3_full' => '<p><strong>Professional Corporate Content Publishing</strong><br>High-quality content is the foundation of digital marketing success. Kreatif Digital Dinamik produces professional, creative, and audience-focused content to ensure your brand message is delivered effectively and customer trust is enhanced.</p><p><strong>Scope of Services:</strong></p><ul><li>Product & Corporate Photography – High-quality images for catalogs, ads, and social media.</li><li>Promotional & Event Videography – Short videos, commercials, testimonials, and documentation.</li><li>Content Writing (Copywriting) – Articles, captions, and scripts that engage.</li><li>Graphic Design & Simple Animation – Creative visuals for social media & digital marketing.</li><li>Content Series (TikTok/YouTube) – Consistent serial content to attract more viewers.</li></ul>',
+        'service_4_full' => '<p><strong>Long-term Campaign Strategy & Execution</strong><br>Every marketing campaign requires strategic planning and clear objectives, whether to boost sales, launch new products, or build brand awareness. We provide expert consultation and execution for well-structured, creative, and results-driven campaigns, ensuring every initiative delivers measurable and significant impact.</p><p><strong>Scope of Services:</strong></p><ul><li>Digital & Offline Campaign Planning – Comprehensive strategies to reach your target audience.</li><li>Creative Ideas & Concepts – Strong visuals, messages, and campaign themes.</li><li>Paid Ads Management – Facebook Ads, Google Ads, TikTok Ads.</li><li>Brand Activation – Events, promotions, or collaborations to attract customers.</li><li>ROI Monitoring & Analysis – Campaign effectiveness reports to ensure optimal results.</li></ul>',
+        'service_5_full' => '<p><strong>Professional Branding & Website Development</strong><br>A strong brand is the most valuable asset for building trust and business excellence. It encompasses visual identity, values, and a consistent customer experience across all platforms. Kreatif Digital Dinamik delivers comprehensive branding strategies and professional website design and development aligned with your brand identity, ensuring your business remains relevant, trusted, and competitive.</p><p><strong>Scope of Services:</strong></p><ul><li>Brand Story – Building a narrative that reflects who you are and what you stand for.</li><li>Brand Strategy – Setting direction and long-term planning for your brand.</li><li>Visual Identity Design – Logo, colors, typography, and consistent visual elements.</li><li>Brand Guidelines – Standards to keep your brand consistent across all platforms.</li><li>Digital Assets & Promotional Materials – Designs for marketing, ads, and social media.</li><li>Creative Design & Packaging – Attractive visuals for products and marketing materials.</li></ul><p><strong>Web Design & Development:</strong><br>We also offer professional website design and development services that are responsive, modern, and optimized for the best user experience. Your website will align with your brand identity and support your digital marketing goals.</p>',
     /*
     |--------------------------------------------------------------------------
     | Common Translation Lines
@@ -252,34 +263,93 @@ return [
     'services_main_title' => 'Our Strategic Focus for Your Brand Success',
     
     // Service 1 - Digital Marketing Strategy
-    'service_1_title' => 'ROI-Focused Digital Marketing Strategy',
+    'service_1_title' => 'Social Media',
     'service_1_description' => 'Developing paid advertising strategies (Meta Ads, Google Ads) and targeted campaigns to ensure optimal and measurable return on investment (ROI).',
     'service_1_alt' => 'Marketing Strategy',
     'service_1_url' => 'digital-marketing-strategy',
     
     // Service 2 - Brand Management
-    'service_2_title' => 'Consistent Digital Brand Management',
+    'service_2_title' => 'Marketing',
     'service_2_description' => 'Comprehensive management of all social platforms with structured content to build authority and ensure corporate brand consistency.',
     'service_2_alt' => 'Digital Brand Management',
     'service_2_url' => 'digital-brand-management',
     
     // Service 3 - Media Publishing
-    'service_3_title' => 'Professional Corporate Media Publishing',
+    'service_3_title' => 'Content Creation',
     'service_3_description' => 'Producing high-standard visual assets (Photography & Videography) and Graphic Design that comply with your brand guidelines.',
     'service_3_alt' => 'Corporate Media Publishing',
     'service_3_url' => 'corporate-media-publishing',
     
     // Service 4 - Strategy Consultation
-    'service_4_title' => 'Long-term Strategy Consultation',
+    'service_4_title' => 'Campaign',
     'service_4_description' => 'Consultation with KDD experts to analyze current performance, map action plans, and ensure continuous brand growth.',
     'service_4_alt' => 'Strategy Consultation',
     'service_4_url' => 'strategy-consultation',
     
     // Service 5 - Web Design and Development
-    'service_5_title' => 'Web Design and Development',
+    'service_5_title' => 'Branding',
     'service_5_description' => 'Creating modern, responsive, and user-friendly websites that enhance your digital presence and drive business growth.',
     'service_5_alt' => 'Web Design and Development',
     'service_5_url' => 'web-design-development',
+    
+    // Services Page - Detailed Service Content
+    // Service 1 Details
+    'service_1_heading' => 'Social Media - ROI-Focused Digital Marketing Strategy',
+    'service_1_image_alt' => 'Social Media - ROI-Focused Digital Marketing Strategy',
+    'service_1_intro' => 'Managing & Developing Social Media Consistently<br>Social media is the primary medium for connecting with customers today. However, inconsistent management can cause your brand to sink among competitors. We help you manage social media with relevant, creative, and consistent content to remain relevant and effective.',
+    'service_1_scope_heading' => 'Our Social Media services include:',
+    'service_1_scope_1' => 'Social Media Account Management – Facebook, Instagram, TikTok, LinkedIn, and more.',
+    'service_1_scope_2' => 'Content Planning – Consistent posting schedules aligned with marketing objectives.',
+    'service_1_scope_3' => 'Visual & Caption Design – Graphic content and writing that attracts audience interest.',
+    'service_1_scope_4' => 'Engagement & Community – Building interaction with followers and increasing customer trust.',
+    'service_1_scope_5' => 'Performance Analysis & Reporting – Evaluating post/ad results for better strategies.',
+    
+    // Service 2 Details
+    'service_2_heading' => 'Marketing - Consistent Digital Brand Management',
+    'service_2_image_alt' => 'Marketing - Consistent Digital Brand Management',
+    'service_2_intro' => 'Marketing Strategy for Business Growth<br>Marketing is not just about creating ads – it\'s about understanding customers and delivering the right message at the right time. We help you develop marketing strategies aligned with business goals, from awareness to conversion.',
+    'service_2_scope_heading' => 'Our Marketing services include:',
+    'service_2_scope_1' => 'Digital Marketing Strategy – Developing short-term & long-term marketing plans.',
+    'service_2_scope_2' => 'Market & Target Analysis – Identifying the right audience for your product.',
+    'service_2_scope_3' => 'Paid Ads Management – Optimizing ad budgets for the best results.',
+    'service_2_scope_4' => 'Retargeting & Automation – Retaining customers with remarketing and automation techniques.',
+    'service_2_scope_5' => 'Consulting & Advisory – Providing marketing guidance based on data & current trends.',
+    
+    // Service 3 Details
+    'service_3_heading' => 'Content Creation - Professional Corporate Media Publishing',
+    'service_3_image_alt' => 'Content Creation - Professional Corporate Media Publishing',
+    'service_3_intro' => 'Creative Content that Brings Brands to Life<br>Content is the lifeblood of digital marketing. Without engaging content, your message won\'t reach customers. We produce creative content tailored to your target audience so your brand is more memorable.',
+    'service_3_scope_heading' => 'Our Content Creation services include:',
+    'service_3_scope_1' => 'Product & Corporate Photography – High-quality images for catalogs, ads, and social media.',
+    'service_3_scope_2' => 'Promotional & Event Videography – Short videos, commercials, testimonials, and documentation.',
+    'service_3_scope_3' => 'Content Writing (Copywriting) – Engaging articles, captions, and scripts.',
+    'service_3_scope_4' => 'Graphic Design & Simple Animation – Creative visuals for social media & digital marketing.',
+    'service_3_scope_5' => 'Content Series (TikTok/YouTube) – Consistent serial content to attract more viewers.',
+    
+    // Service 4 Details
+    'service_4_heading' => 'Campaign - Long-term Strategy Consultation',
+    'service_4_image_alt' => 'Campaign - Long-term Strategy Consultation',
+    'service_4_intro' => 'Well-Planned & Focused Marketing Campaigns<br>Every marketing campaign needs clear goals – whether to increase sales, introduce new products, or build brand awareness. We provide structured campaign planning so every step delivers measurable results.',
+    'service_4_scope_heading' => 'Our Campaign services include:',
+    'service_4_scope_1' => 'Digital & Offline Campaign Planning – Comprehensive strategies to reach target audiences.',
+    'service_4_scope_2' => 'Creative Ideas & Concepts – Strong visuals, messages, and campaign themes.',
+    'service_4_scope_3' => 'Paid Ads Management – Facebook Ads, Google Ads, TikTok Ads.',
+    'service_4_scope_4' => 'Brand Activation – Events, promotions, or collaborations to attract customers.',
+    'service_4_scope_5' => 'ROI Monitoring & Analysis – Campaign effectiveness reports to ensure optimal results.',
+    
+    // Service 5 Details
+    'service_5_heading' => 'Branding - Web Design and Development',
+    'service_5_image_alt' => 'Branding - Web Design and Development',
+    'service_5_intro' => 'Building a Consistent & Effective Brand<br>Your brand is the identity that distinguishes you from competitors. It\'s not just a logo or color, but the entire story, values, and experience that customers feel every time they interact with your business.<br>At Kreatif Digital Dinamik (KDD), we help you develop clear, consistent, and recognizable brand strategies. We believe that a strong brand can build customer confidence and provide a competitive advantage in the long term.',
+    'service_5_scope_heading' => 'Our Branding services include:',
+    'service_5_scope_1' => 'Brand Story – Building narratives that illustrate who you are and what you stand for.',
+    'service_5_scope_2' => 'Brand Strategy – Setting direction and long-term planning for your brand.',
+    'service_5_scope_3' => 'Visual Identity Design – Logo, colors, typography, and consistent visual elements.',
+    'service_5_scope_4' => 'Brand Guidelines – Standards that keep your brand consistent across all platforms.',
+    'service_5_scope_5' => 'Digital Assets & Promotional Materials – Designs for marketing, advertising, and social media.',
+    'service_5_scope_6' => 'Creative Design & Packaging – Attractive visuals for products and marketing materials.',
+    'service_5_scope_7' => 'Web Design & Development – Developing professional, responsive, and user-friendly websites to strengthen your digital presence.',
+    'service_5_scope_8' => 'Web Maintenance & Updates – Ensure your website is always secure, up-to-date, and functioning properly.',
     
     // Common Service Elements
     'read_more' => 'Read More',
@@ -333,6 +403,15 @@ return [
     // About Quote
     'about_company_quote' => 'Hence, we are more than a creative agency; we are strategic partners dedicated to solving the unique challenges our clients face. Our diverse portfolio features collaborations with industry leaders like PNB, SME Bank, and Al-Ikhsan, as well as numerous other dynamic companies. It is our ability to deliver impactful visual content and marketing strategies that resonate in any industry.',
     'about_company_tagline' => 'Headquartered in Alor Setar, our reach extends nationwide. We are proud to be a digital agency that combines local roots with a national presence, offering every client personalized attention and bespoke strategies for success.',
+    
+    // Vision & Mission
+    'our_vision_title' => 'Our Vision',
+    'vision_heading' => 'Building Trust Through Excellence',
+    'vision_text' => 'To be trusted digital creative partner for businesses that value clear communication, strong brand image, and long-term growth.',
+    
+    'our_mission_title' => 'Our Mission',
+    'mission_heading' => 'Delivering Reliable Solutions',
+    'mission_text' => 'Our mission is to deliver reliable digital content and creative services that help businesses to present themselves professionally and competitively.',
     
     // Statistics
     'stats_successful_projects' => 'Successful Corporate Projects',
