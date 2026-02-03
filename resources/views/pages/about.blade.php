@@ -34,6 +34,28 @@
                             </div>
                         </div>
                     </div>
+                    
+                    <!-- Company Profile Download Section -->
+                    <div class="company-profile-download" style="margin-top: 40px; padding: 30px; background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%); border-radius: 15px; border: 1px solid #e2e8f0;">
+                        <div class="text-center">
+                            <h5 style="color: #1e293b; margin-bottom: 15px; font-weight: 600;">
+                                <i class="fas fa-file-pdf" style="color: #dc2626; margin-right: 10px;"></i>
+                                {{ __('common.company_profile_title') }}
+                            </h5>
+                            <p style="color: #64748b; margin-bottom: 20px; font-size: 14px;">
+                                {{ __('common.company_profile_description') }}
+                            </p>
+                            <a href="{{ asset('assets/documents/Company-Profile-Official-2026.pdf') }}" 
+                               class="btn btn-primary" 
+                               style="background: linear-gradient(135deg, #1e293b 0%, #334155 100%); border: none; padding: 12px 25px; border-radius: 8px; font-weight: 600; text-decoration: none; display: inline-flex; align-items: center; gap: 8px; transition: all 0.3s ease;"
+                               download="Kreatif-Digital-Dinamik-Company-Profile-2026.pdf"
+                               onmouseover="this.style.transform='translateY(-2px)'; this.style.boxShadow='0 8px 25px rgba(30, 41, 59, 0.3)'"
+                               onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 4px 15px rgba(30, 41, 59, 0.2)'">
+                                <i class="fas fa-download"></i>
+                                {{ __('common.download_profile') }}
+                            </a>
+                        </div>
+                    </div>
                 </div>
                 <div class="col-lg-6 wow fadeInRight" data-wow-delay="200ms">
                     <div class="about-three__content">

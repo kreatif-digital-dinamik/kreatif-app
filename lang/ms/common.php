@@ -488,4 +488,9 @@ return [
     'thank_you_message' => 'Terima kasih kerana berkongsi maklumat anda!',
     'submission_failed' => 'Permohonan gagal.',
     
+    // Company Profile Download
+    'company_profile_title' => 'Profil Syarikat',
+    'company_profile_description' => 'Muat turun profil syarikat lengkap kami untuk mengetahui lebih lanjut tentang perkhidmatan, kepakaran, dan pencapaian kami.',
+    'download_profile' => 'Muat Turun Profil',
+    
 ];

@@ -53,4 +53,17 @@ Route::get('contact', [PagesController::class, 'contact'])->name('contact');
 Route::get('career', [PagesController::class, 'career'])->name('career');
 Route::post('career/apply', [CareerController::class, 'apply'])->name('career.apply');
 
+// Company Profile Download
+Route::get('download/company-profile', function () {
+    $filePath = public_path('assets/documents/Company-Profile-Official-2026.pdf');
+    
+    if (!file_exists($filePath)) {
+        abort(404, 'Company Profile not found.');
+    }
+    
+    return response()->download($filePath, 'Kreatif-Digital-Dinamik-Company-Profile-2026.pdf', [
+        'Content-Type' => 'application/pdf',
+    ]);
+})->name('company.profile.download');
+
 Route::fallback([PagesController::class, 'not_found']);

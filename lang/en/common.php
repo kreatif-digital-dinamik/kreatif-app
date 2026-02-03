@@ -506,4 +506,9 @@ return [
     'thank_you_message' => 'Thank you for sharing your information!',
     'submission_failed' => 'Application failed.',
     
+    // Company Profile Download
+    'company_profile_title' => 'Company Profile',
+    'company_profile_description' => 'Download our comprehensive company profile to learn more about our services, expertise, and achievements.',
+    'download_profile' => 'Download Profile',
+    
 ];
