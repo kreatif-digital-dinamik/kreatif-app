@@ -294,6 +294,18 @@ return [
     'service_5_alt' => 'Web Design and Development',
     'service_5_url' => 'web-design-development',
     
+    // Service 6 - Visual Production
+    'service_6_title' => 'Visual Production',
+    'service_6_description' => 'Professional videography, photography, and graphic design services that elevate your brand through compelling visual storytelling.',
+    'service_6_alt' => 'Professional Videography, Photography & Graphic Design',
+    'service_6_url' => 'visual-production',
+    
+    // Service 7 - Web Solutions  
+    'service_7_title' => 'Web Solutions',
+    'service_7_description' => 'Custom website design and development with responsive layouts, e-commerce integration, and ongoing maintenance support.',
+    'service_7_alt' => 'Web Design & Development',
+    'service_7_url' => 'web-solutions',
+    
     // Services Page - Detailed Service Content
     // Service 1 Details
     'service_1_heading' => 'Social Media - ROI-Focused Digital Marketing Strategy',
@@ -352,6 +364,33 @@ return [
     'service_5_scope_6' => 'Creative Design & Packaging – Attractive visuals for products and marketing materials.',
     'service_5_scope_7' => 'Web Design & Development – Developing professional, responsive, and user-friendly websites to strengthen your digital presence.',
     'service_5_scope_8' => 'Web Maintenance & Updates – Ensure your website is always secure, up-to-date, and functioning properly.',
+
+    // Service 6: Professional Videography, Photography & Graphic Design
+    'service_6_title' => 'Visual Production',
+    'service_6_heading' => 'Professional Videography, Photography & Graphic Design',
+    'service_6_image_alt' => 'Professional Videography and Photography Services',
+    'service_6_intro' => 'Elevating Your Brand Through Exceptional Visual Storytelling<br>In today\'s visual-driven marketplace, compelling imagery and videos are fundamental to capturing audience attention and building brand credibility. We provide comprehensive visual production services that transform your brand story into engaging content that resonates with your target audience and drives meaningful engagement.',
+    'service_6_scope_heading' => 'Our Visual Production services include:',
+    'service_6_scope_1' => 'Corporate Photography – Professional headshots, team photos, and corporate event documentation.',
+    'service_6_scope_2' => 'Product Photography – High-quality product images for e-commerce, catalogs, and marketing materials.',
+    'service_6_scope_3' => 'Commercial Videography – Promotional videos, testimonials, and brand documentaries.',
+    'service_6_scope_4' => 'Event Coverage – Comprehensive photography and videography for corporate events, launches, and celebrations.',
+    'service_6_scope_5' => 'Creative Graphic Design – Logo design, brand identity, marketing collaterals, and digital assets.',
+    'service_6_scope_6' => 'Motion Graphics & Animation – Dynamic visual elements for social media, presentations, and digital campaigns.',
+
+    // Service 7: Web Design & Development
+    'service_7_title' => 'Web Solutions',
+    'service_7_heading' => 'Web Design & Development - Digital Excellence',
+    'service_7_image_alt' => 'Professional Web Design and Development Services',
+    'service_7_intro' => 'Building Digital Experiences That Drive Business Growth<br>Your website is often the first touchpoint between your brand and potential customers. We create professional, responsive, and user-centric websites that not only look exceptional but also deliver seamless functionality and optimal performance. Our development approach ensures your digital presence effectively represents your brand while driving conversions and business objectives.',
+    'service_7_scope_heading' => 'Our Web Development services include:',
+    'service_7_scope_1' => 'Custom Website Design – Tailored designs that reflect your brand identity and business objectives.',
+    'service_7_scope_2' => 'Responsive Development – Mobile-optimized websites that perform flawlessly across all devices.',
+    'service_7_scope_3' => 'E-commerce Solutions – Complete online store development with secure payment integration.',
+    'service_7_scope_4' => 'Content Management Systems – Easy-to-manage CMS platforms for effortless content updates.',
+    'service_7_scope_5' => 'SEO Optimization – Built-in search engine optimization for improved online visibility.',
+    'service_7_scope_6' => 'Performance Analytics – Comprehensive tracking and reporting systems for data-driven insights.',
+    'service_7_scope_7' => 'Ongoing Maintenance & Support – Regular updates, security monitoring, and technical support.',
     
     // Common Service Elements
     'read_more' => 'Read More',

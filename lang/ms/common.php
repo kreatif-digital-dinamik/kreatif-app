@@ -290,6 +290,18 @@ return [
     'service_5_alt' => 'Reka Bentuk dan Pembangunan Web',
     'service_5_url' => 'reka-bentuk-pembangunan-web',
     
+    // Service 6 - Visual Production
+    'service_6_title' => 'Produksi Visual',
+    'service_6_description' => 'Perkhidmatan videografi, fotografi, dan reka bentuk grafik profesional yang meningkatkan jenama anda melalui storytelling visual yang menarik.',
+    'service_6_alt' => 'Videografi, Fotografi & Reka Bentuk Grafik Profesional',
+    'service_6_url' => 'produksi-visual',
+    
+    // Service 7 - Web Solutions
+    'service_7_title' => 'Penyelesaian Web',
+    'service_7_description' => 'Reka bentuk dan pembangunan laman web tersuai dengan susun atur responsif, integrasi e-dagang, dan sokongan penyelenggaraan berterusan.',
+    'service_7_alt' => 'Web Design & Development',
+    'service_7_url' => 'penyelesaian-web',
+    
     // Services Page - Detailed Service Content
     // Service 1 Details
     'service_1_heading' => 'Social Media - Strategi Pemasaran Digital Berfokus ROI',
@@ -348,6 +360,33 @@ return [
     'service_5_scope_6' => 'Reka Bentuk Kreatif & Packaging – Visual yang menarik untuk produk dan bahan pemasaran.',
     'service_5_scope_7' => 'Web Design & Development – Membangunkan laman web profesional, responsif, dan mesra pengguna untuk memperkukuh kehadiran digital anda.',
     'service_5_scope_8' => 'Penyelenggaraan & Kemaskini Web – Pastikan laman web anda sentiasa selamat, terkini, dan berfungsi dengan baik.',
+
+    // Service 6: Professional Videography, Photography & Graphic Design
+    'service_6_title' => 'Produksi Visual',
+    'service_6_heading' => 'Videografi, Fotografi & Reka Bentuk Grafik Profesional',
+    'service_6_image_alt' => 'Perkhidmatan Videografi dan Fotografi Profesional',
+    'service_6_intro' => 'Meningkatkan Jenama Anda Melalui Storytelling Visual yang Luar Biasa<br>Dalam pasaran yang dipandu oleh visual masa kini, imej dan video yang menarik adalah fundamental untuk menarik perhatian audiens dan membina kredibiliti jenama. Kami menyediakan perkhidmatan produksi visual yang komprehensif yang mengubah cerita jenama anda menjadi kandungan yang menarik yang beresonans dengan sasaran audiens anda serta mendorong keterlibatan yang bermakna.',
+    'service_6_scope_heading' => 'Perkhidmatan Produksi Visual kami termasuk:',
+    'service_6_scope_1' => 'Fotografi Korporat – Potret profesional, foto pasukan, dan dokumentasi acara korporat.',
+    'service_6_scope_2' => 'Fotografi Produk – Imej produk berkualiti tinggi untuk e-dagang, katalog, dan bahan pemasaran.',
+    'service_6_scope_3' => 'Videografi Komersial – Video promosi, testimoni, dan dokumentari jenama.',
+    'service_6_scope_4' => 'Liputan Acara – Fotografi dan videografi komprehensif untuk acara korporat, pelancaran, dan perayaan.',
+    'service_6_scope_5' => 'Reka Bentuk Grafik Kreatif – Reka bentuk logo, identiti jenama, bahan pemasaran, dan aset digital.',
+    'service_6_scope_6' => 'Motion Graphics & Animasi – Elemen visual dinamik untuk media sosial, persembahan, dan kempen digital.',
+
+    // Service 7: Web Design & Development
+    'service_7_title' => 'Penyelesaian Web',
+    'service_7_heading' => 'Web Design & Development - Kecemerlangan Digital',
+    'service_7_image_alt' => 'Perkhidmatan Web Design dan Development Profesional',
+    'service_7_intro' => 'Membina Pengalaman Digital yang Mendorong Pertumbuhan Perniagaan<br>Laman web anda selalunya merupakan titik hubungan pertama antara jenama anda dan bakal pelanggan. Kami mencipta laman web profesional, responsif, dan berpusatkan pengguna yang bukan sahaja kelihatan luar biasa tetapi juga menyampaikan kefungsian yang lancar dan prestasi optimum. Pendekatan pembangunan kami memastikan kehadiran digital anda berkesan mewakili jenama anda sambil mendorong konversi dan objektif perniagaan.',
+    'service_7_scope_heading' => 'Perkhidmatan Pembangunan Web kami termasuk:',
+    'service_7_scope_1' => 'Reka Bentuk Laman Web Tersuai – Reka bentuk yang disesuaikan yang menggambarkan identiti jenama dan objektif perniagaan anda.',
+    'service_7_scope_2' => 'Pembangunan Responsif – Laman web yang dioptimumkan untuk mudah alih yang berfungsi sempurna merentasi semua peranti.',
+    'service_7_scope_3' => 'Penyelesaian E-dagang – Pembangunan kedai dalam talian yang lengkap dengan integrasi pembayaran yang selamat.',
+    'service_7_scope_4' => 'Sistem Pengurusan Kandungan – Platform CMS yang mudah diurus untuk kemaskini kandungan yang mudah.',
+    'service_7_scope_5' => 'Pengoptimuman SEO – Pengoptimuman enjin carian terbina dalam untuk meningkatkan keterlihatan dalam talian.',
+    'service_7_scope_6' => 'Analitik Prestasi – Sistem penjejakan dan pelaporan yang komprehensif untuk wawasan berdasarkan data.',
+    'service_7_scope_7' => 'Penyelenggaraan & Sokongan Berterusan – Kemaskini berkala, pemantauan keselamatan, dan sokongan teknikal.',
     
     // Common Service Elements
     'read_more' => 'Baca Lanjut',

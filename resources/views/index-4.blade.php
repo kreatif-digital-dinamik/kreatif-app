@@ -835,91 +835,160 @@
                 <!-- /.sec-title-two__title -->
             </div><!-- /.sec-title-two -->
             
-            <!-- Services Grid Layout -->
-            <div class="row services-grid justify-content-center" style="margin-top: 50px;">
-                <!-- Service 1: Social Media -->
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="service-one__item text-center">
-                        <div class="service-one__item__image">
-                            <img src="{{ asset('/assets/images/new-images/image3.jpg') }}" alt="{{ __('common.service_1_title') }}">
-                        </div>
-                        <div class="service-one__item__content">
-                            <h3 class="service-one__item__title">
-                                <a href="{{ url('services#service1') }}">{{ __('common.service_1_title') }}</a>
-                            </h3>
-                            <p class="service-one__item__text">
-                                {{ __('common.service_1_description') }}
-                            </p>
+            <!-- Services Carousel Layout -->
+            <div class="services-carousel-container" style="margin-top: 50px;">
+                <div class="service-carousel__one tolak-owl__carousel owl-theme owl-carousel" data-owl-options='{
+                    "items": 3,
+                    "margin": 30,
+                    "smartSpeed": 700,
+                    "loop": true,
+                    "autoplay": 4000,
+                    "nav": true,
+                    "dots": true,
+                    "navText": ["<span class=\"fa fa-angle-left\"></span>","<span class=\"fa fa-angle-right\"></span>"],
+                    "responsive":{
+                        "0":{
+                            "items":1,
+                            "margin": 15
+                        },
+                        "576":{
+                            "items":2,
+                            "margin": 20
+                        },
+                        "768":{
+                            "items":2,
+                            "margin": 25
+                        },
+                        "992":{
+                            "items": 3,
+                            "margin": 30
+                        },
+                        "1200":{
+                            "items": 3,
+                            "margin": 30
+                        }
+                    }
+                }'>
+                
+                    <!-- Service 1: Social Media -->
+                    <div class="service-carousel__item">
+                        <div class="service-one__item text-center">
+                            <div class="service-one__item__image">
+                                <img src="{{ asset('/assets/images/new-images/image3.jpg') }}" alt="{{ __('common.service_1_title') }}">
+                            </div>
+                            <div class="service-one__item__content">
+                                <h3 class="service-one__item__title">
+                                    <a href="{{ url('services#service1') }}">{{ __('common.service_1_title') }}</a>
+                                </h3>
+                                <p class="service-one__item__text">
+                                    {{ __('common.service_1_description') }}
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Service 2: Marketing -->
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="service-one__item text-center">
-                        <div class="service-one__item__image">
-                            <img src="{{ asset('/assets/images/new-images/DSC09581-2.jpg') }}" alt="{{ __('common.service_2_title') }}">
-                        </div>
-                        <div class="service-one__item__content">
-                            <h3 class="service-one__item__title">
-                                <a href="{{ url('services#service2') }}">{{ __('common.service_2_title') }}</a>
-                            </h3>
-                            <p class="service-one__item__text">
-                                {{ __('common.service_2_description') }}
-                            </p>
+                    <!-- Service 2: Marketing -->
+                    <div class="service-carousel__item">
+                        <div class="service-one__item text-center">
+                            <div class="service-one__item__image">
+                                <img src="{{ asset('/assets/images/new-images/DSC09581-2.jpg') }}" alt="{{ __('common.service_2_title') }}">
+                            </div>
+                            <div class="service-one__item__content">
+                                <h3 class="service-one__item__title">
+                                    <a href="{{ url('services#service2') }}">{{ __('common.service_2_title') }}</a>
+                                </h3>
+                                <p class="service-one__item__text">
+                                    {{ __('common.service_2_description') }}
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Service 3: Content Creation -->
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="service-one__item text-center">
-                        <div class="service-one__item__image">
-                            <img src="{{ asset('/assets/images/new-images/image1.jpeg') }}" alt="{{ __('common.service_3_title') }}">
-                        </div>
-                        <div class="service-one__item__content">
-                            <h3 class="service-one__item__title">
-                                <a href="{{ url('services#service3') }}">{{ __('common.service_3_title') }}</a>
-                            </h3>
-                            <p class="service-one__item__text">
-                                {{ __('common.service_3_description') }}
-                            </p>
+                    <!-- Service 3: Content Creation -->
+                    <div class="service-carousel__item">
+                        <div class="service-one__item text-center">
+                            <div class="service-one__item__image">
+                                <img src="{{ asset('/assets/images/new-images/image1.jpeg') }}" alt="{{ __('common.service_3_title') }}">
+                            </div>
+                            <div class="service-one__item__content">
+                                <h3 class="service-one__item__title">
+                                    <a href="{{ url('services#service3') }}">{{ __('common.service_3_title') }}</a>
+                                </h3>
+                                <p class="service-one__item__text">
+                                    {{ __('common.service_3_description') }}
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Service 4: Campaign -->
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="service-one__item text-center">
-                        <div class="service-one__item__image">
-                            <img src="{{ asset('/assets/images/new-images/IMG_9832-2.jpg') }}" alt="{{ __('common.service_4_title') }}">
-                        </div>
-                        <div class="service-one__item__content">
-                            <h3 class="service-one__item__title">
-                                <a href="{{ url('services#service4') }}">{{ __('common.service_4_title') }}</a>
-                            </h3>
-                            <p class="service-one__item__text">
-                                {{ __('common.service_4_description') }}
-                            </p>
+                    <!-- Service 4: Campaign -->
+                    <div class="service-carousel__item">
+                        <div class="service-one__item text-center">
+                            <div class="service-one__item__image">
+                                <img src="{{ asset('/assets/images/new-images/IMG_9832-2.jpg') }}" alt="{{ __('common.service_4_title') }}">
+                            </div>
+                            <div class="service-one__item__content">
+                                <h3 class="service-one__item__title">
+                                    <a href="{{ url('services#service4') }}">{{ __('common.service_4_title') }}</a>
+                                </h3>
+                                <p class="service-one__item__text">
+                                    {{ __('common.service_4_description') }}
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <!-- Service 5: Branding -->
-                <div class="col-lg-4 col-md-6 mb-4">
-                    <div class="service-one__item text-center">
-                        <div class="service-one__item__image">
-                            <img src="{{ asset('/assets/images/new-images/image-web.png') }}" alt="{{ __('common.service_5_title') }}">
-                        </div>
-                        <div class="service-one__item__content">
-                            <h3 class="service-one__item__title">
-                                <a href="{{ url('services#service5') }}">{{ __('common.service_5_title') }}</a>
-                            </h3>
-                            <p class="service-one__item__text">
-                                {{ __('common.service_5_branding_short') }}
-                            </p>
+                    <!-- Service 5: Branding -->
+                    <div class="service-carousel__item">
+                        <div class="service-one__item text-center">
+                            <div class="service-one__item__image">
+                                <img src="{{ asset('/assets/images/gallery/untitled-1-4.jpg') }}" alt="{{ __('common.service_5_title') }}">
+                            </div>
+                            <div class="service-one__item__content">
+                                <h3 class="service-one__item__title">
+                                    <a href="{{ url('services#service5') }}">{{ __('common.service_5_title') }}</a>
+                                </h3>
+                                <p class="service-one__item__text">
+                                    {{ __('common.service_5_branding_short') }}
+                                </p>
+                            </div>
                         </div>
                     </div>
+
+                    <!-- Service 6: Visual Production -->
+                    <div class="service-carousel__item">
+                        <div class="service-one__item text-center">
+                            <div class="service-one__item__image">
+                                <img src="{{ asset('/assets/images/gallery/untitled-1-32-crop.jpg') }}" alt="{{ __('common.service_6_title') }}">
+                            </div>
+                            <div class="service-one__item__content">
+                                <h3 class="service-one__item__title">
+                                    <a href="{{ url('services#service6') }}">{{ __('common.service_6_title') }}</a>
+                                </h3>
+                                <p class="service-one__item__text">
+                                    {{ __('common.service_6_description') }}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Service 7: Web Solutions -->
+                    <div class="service-carousel__item">
+                        <div class="service-one__item text-center">
+                            <div class="service-one__item__image">
+                                <img src="{{ asset('/assets/images/new-images/image-web-2.png') }}" alt="{{ __('common.service_7_title') }}">
+                            </div>
+                            <div class="service-one__item__content">
+                                <h3 class="service-one__item__title">
+                                    <a href="{{ url('services#service7') }}">{{ __('common.service_7_title') }}</a>
+                                </h3>
+                                <p class="service-one__item__text">
+                                    {{ __('common.service_7_description') }}
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
         </div>
@@ -927,45 +996,30 @@
             alt="tolak">
     </section>
     
-    <!-- Custom CSS for Equal Height Service Boxes -->
+    <!-- Custom CSS for Services Carousel -->
     <style>
-        /* Services Grid Layout */
-        .services-grid {
-            display: flex;
-            flex-wrap: wrap;
-            justify-content: center;
-            gap: 25px;
-            max-width: 1400px;
-            margin: 0 auto;
+        /* Services Carousel Container */
+        .services-carousel-container {
+            position: relative;
+            padding: 0 20px;
         }
 
-        .services-grid > [class*='col-'] {
-            display: flex;
-            flex: 0 0 auto;
+        /* Service Carousel Item */
+        .service-carousel__item {
+            padding: 0 15px;
         }
 
-        /* First row items - 3 equal columns */
-        .services-grid > .col-lg-4:nth-child(-n+3) {
-            width: calc(33.333% - 17px);
-        }
-
-        /* Second row items - 2 equal columns */
-        .services-grid > .col-lg-4:nth-child(n+4) {
-            width: calc(33.333% - 17px);
-        }
-
-        /* Make all service boxes the same height */
+        /* Service Box Styling */
         .service-one__item {
             display: flex;
             flex-direction: column;
-            height: 100%;
-            min-height: 450px;
+            height: 450px;
             background: white;
             border-radius: 15px;
             overflow: hidden;
             box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
             transition: all 0.3s ease;
-            width: 100%;
+            margin-bottom: 30px;
         }
 
         .service-one__item:hover {
@@ -976,7 +1030,7 @@
         .service-one__item__image {
             height: 220px;
             overflow: hidden;
-            border-radius: 15px 15px 0 0;
+            border-radius: 15px;
             position: relative;
         }
         
@@ -985,6 +1039,7 @@
             height: 100%;
             object-fit: cover;
             transition: transform 0.3s ease;
+            border-radius: 15px;
         }
 
         .service-one__item:hover .service-one__item__image img {
@@ -995,7 +1050,7 @@
             flex: 1;
             display: flex;
             flex-direction: column;
-            padding: 30px 25px;
+            padding: 25px 20px;
             text-align: center;
         }
         
@@ -1005,8 +1060,9 @@
             align-items: center;
             justify-content: center;
             margin-bottom: 15px;
-            font-size: 20px;
+            font-size: 18px;
             font-weight: 700;
+            line-height: 1.3;
         }
 
         .service-one__item__title a {
@@ -1022,81 +1078,198 @@
         .service-one__item__text {
             flex: 1;
             display: flex;
-            align-items: center;
+            align-items: flex-start;
             justify-content: center;
             text-align: center;
-            min-height: 80px;
-            font-size: 15px;
+            font-size: 14px;
             line-height: 1.6;
             color: #555;
             margin: 0;
         }
-        
-        /* Responsive adjustments */
-        @media (max-width: 991px) {
-            .services-grid > .col-lg-4:nth-child(-n+3),
-            .services-grid > .col-lg-4:nth-child(n+4) {
-                width: calc(50% - 13px);
-            }
 
+        /* Carousel Navigation Styling */
+        .service-carousel__one .owl-nav {
+            margin-top: 30px;
+            text-align: center;
+        }
+
+        .service-carousel__one .owl-nav button {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.9) !important;
+            color: #1e293b !important;
+            font-size: 18px;
+            margin: 0 10px;
+            border: 2px solid #1e293b;
+            transition: all 0.3s ease;
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        .service-carousel__one .owl-nav button:hover {
+            background: #1e293b !important;
+            color: white !important;
+            transform: translateY(-2px);
+            box-shadow: 0 6px 20px rgba(30, 41, 59, 0.3);
+        }
+
+        /* Carousel Dots Styling */
+        .service-carousel__one .owl-dots {
+            text-align: center;
+            margin-top: 25px;
+        }
+
+        .service-carousel__one .owl-dot {
+            display: inline-block;
+            width: 12px;
+            height: 12px;
+            border-radius: 50%;
+            background: rgba(255, 255, 255, 0.4);
+            margin: 0 6px;
+            transition: all 0.3s ease;
+            border: 2px solid rgba(255, 255, 255, 0.6);
+        }
+
+        .service-carousel__one .owl-dot.active {
+            background: white;
+            transform: scale(1.2);
+            border-color: white;
+            box-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+        }
+
+        .service-carousel__one .owl-dot:hover {
+            background: rgba(255, 255, 255, 0.8);
+            transform: scale(1.1);
+        }
+
+        /* Responsive Design for Carousel */
+        @media (max-width: 1199px) {
             .service-one__item {
-                min-height: 420px;
+                height: 420px;
             }
             
             .service-one__item__image {
                 height: 200px;
             }
-        }
 
-        @media (max-width: 768px) {
-            .services-grid {
-                gap: 20px;
+            .service-one__item__title {
+                font-size: 17px;
+                min-height: 55px;
             }
 
-            .services-grid > .col-lg-4:nth-child(-n+3),
-            .services-grid > .col-lg-4:nth-child(n+4) {
-                width: 100%;
+            .service-one__item__text {
+                font-size: 13px;
+            }
+        }
+
+        @media (max-width: 991px) {
+            .services-carousel-container {
+                padding: 0 10px;
             }
 
             .service-one__item {
-                min-height: 400px;
+                height: 400px;
             }
             
             .service-one__item__image {
                 height: 180px;
             }
-            
-            .service-one__item__text {
-                font-size: 14px;
-                min-height: 70px;
+
+            .service-one__item__content {
+                padding: 20px 15px;
             }
 
             .service-one__item__title {
-                font-size: 18px;
+                font-size: 16px;
                 min-height: 50px;
             }
+
+            .service-one__item__text {
+                font-size: 13px;
+            }
+
+            .service-carousel__one .owl-nav button {
+                width: 40px;
+                height: 40px;
+                font-size: 16px;
+                margin: 0 8px;
+            }
         }
-        
-        @media (max-width: 480px) {
+
+        @media (max-width: 768px) {
             .service-one__item {
-                min-height: 380px;
+                height: 380px;
+                margin-bottom: 20px;
             }
             
             .service-one__item__image {
                 height: 160px;
             }
-            
-            .service-one__item__text {
-                font-size: 13px;
-                min-height: 60px;
+
+            .service-one__item__content {
+                padding: 18px 12px;
             }
 
             .service-one__item__title {
-                font-size: 16px;
+                font-size: 15px;
+                min-height: 45px;
+            }
+
+            .service-one__item__text {
+                font-size: 12px;
+            }
+
+            .service-carousel__one .owl-nav {
+                margin-top: 20px;
+            }
+
+            .service-carousel__one .owl-nav button {
+                width: 35px;
+                height: 35px;
+                font-size: 14px;
+                margin: 0 5px;
+            }
+
+            .service-carousel__one .owl-dots {
+                margin-top: 15px;
+            }
+
+            .service-carousel__one .owl-dot {
+                width: 10px;
+                height: 10px;
+                margin: 0 4px;
+            }
+        }
+
+        @media (max-width: 480px) {
+            .services-carousel-container {
+                padding: 0 5px;
+            }
+
+            .service-carousel__item {
+                padding: 0 5px;
+            }
+
+            .service-one__item {
+                height: 350px;
+            }
+            
+            .service-one__item__image {
+                height: 140px;
             }
 
             .service-one__item__content {
-                padding: 20px 15px;
+                padding: 15px 10px;
+            }
+
+            .service-one__item__title {
+                font-size: 14px;
+                min-height: 40px;
+            }
+
+            .service-one__item__text {
+                font-size: 11px;
+                line-height: 1.5;
             }
         }
     </style>
